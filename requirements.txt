@@ -1,53 +1,14 @@
-   
-# Core Data Processing
-   
-numpy>=2.3.0
-pandas>=2.3.0
-pyarrow>=21.0.0
-openpyxl>=3.1.5
-
-   
-# Visualization
-   
-matplotlib>=3.10.5
-plotly>=6.2.0
-
-   
-# Machine Learning
-   
-scikit-learn>=1.7.0
-xgboost>=3.0.4
-lightgbm>=4.6.0
-catboost>=1.2.8
-
-
-# Model Evaluation
-
-scipy>=1.16.0
-joblib>=1.5.1
-
-
-# FastAPI Deployment
-
-fastapi>=0.116.1
-uvicorn>=0.35.0
-pydantic>=2.11.7
-python-multipart>=0.0.20
-
-# Configuration
-
-python-dotenv>=1.1.1
-
-
-# Logging
-
-loguru>=0.7.3
-
-
-# Progress Bar
-
-tqdm>=4.67.1
-
-# Utilities
-
-requests>=2.32.4
+numpy
+pyarrow
+plotly
+scikit-learn
+xgboost
+scipy
+joblib
+fastapi
+uvicorn
+pydantic
+python-multipart
+python-dotenv
+loguru
+catboost
