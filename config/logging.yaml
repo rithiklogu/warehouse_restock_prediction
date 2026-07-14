@@ -1,0 +1,5 @@
+logger:
+  level: INFO
+  rotation: 10 MB
+  retention: 30 days
+  compression: zip

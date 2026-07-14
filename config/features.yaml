@@ -1,0 +1,41 @@
+target: target_next_month_demand
+
+feature_columns:
+  - year
+  - month
+  - product_id
+  - hub_id
+  - category
+  - brand
+  - city
+  - product_name
+  - opening_stock
+  - sales_last_1
+  - sales_last_2
+  - sales_last_3
+  - avg_sales_3
+  - promotion
+  - discount_percentage
+  - festival_flag
+  - returns
+
+categorical_features:
+  - product_id
+  - hub_id
+  - category
+  - brand
+  - city
+  - product_name
+
+numerical_features:
+  - year
+  - month
+  - opening_stock
+  - sales_last_1
+  - sales_last_2
+  - sales_last_3
+  - avg_sales_3
+  - promotion
+  - discount_percentage
+  - festival_flag
+  - returns

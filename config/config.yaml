@@ -1,0 +1,23 @@
+project:
+  name: warehouse_restock_prediction
+  version: 1.0.0
+
+paths:
+  raw_data: data/raw
+  interim_data: data/interim
+  processed_data: data/processed
+  predictions: data/predictions
+  artifacts: artifacts
+  logs: logs
+
+datasets:
+  products: Products.csv
+  warehouses: Warehouses.csv
+  sales: Sales_History.csv
+  inventory: Inventory.csv
+
+random_state: 42
+
+target_column: target_next_month_demand
+
+log_level: INFO
